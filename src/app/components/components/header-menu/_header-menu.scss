@@ -1,0 +1,39 @@
+#Header {
+  width: 100%;
+  height: 80px;
+
+  background-color: #24292e;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #c8c9ca;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #MenuLogo {
+    display: flex;
+    align-items: center;
+
+    #Menu {
+      display: flex;
+      margin-left: 50px;
+
+      a {
+        text-decoration: none;
+        color: #c8c9ca;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      .MenuItem {
+        margin-right: 30px;
+      }
+    }
+  }
+}

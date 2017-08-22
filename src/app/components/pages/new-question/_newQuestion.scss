@@ -1,0 +1,64 @@
+#NewQuestion {
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #24292e;
+  }
+
+  .twoColumnInputItem {
+    width: 100%;
+    display: flex;
+  }
+
+  .fullInput {
+    width: 100%;
+  }
+
+  .halfInput {
+    width: 50%;
+
+    &:first-child {
+      padding-right: 10px;
+    }
+  }
+
+  .inputItem {
+    p {
+      font-weight: bold;
+      margin-bottom: 5px;
+      box-sizing: border-box;
+    }
+    input[type="text"]  {
+      width: 100%;
+      padding: 15px;
+      border-radius: 3px;
+      border: 1px solid #d1d5da;
+      box-sizing: border-box;
+    }
+
+    .correctAnswer {
+      border-color: #70a83b !important;
+    }
+  }
+
+  #Answers {
+    input {
+      margin-top: 10px;
+    }
+  }
+
+  #SubmitQuestionButton {
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 3px;
+    border: 1px solid #588a35;
+    box-sizing: border-box;
+
+    background-color: #70a83b;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+  }
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+/* COMPONENTS */
+
+@import "app/components/components/header/header";
+@import "app/components/components/header-menu/_header-menu.scss";
+
+/* OBJECTS */
+
+@import "app/components/objects/logo/logo";
+
+/* PAGES */
+
+@import "app/components/pages/app/app";
+@import "app/components/pages/new-question/newQuestion";
+
+.container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
